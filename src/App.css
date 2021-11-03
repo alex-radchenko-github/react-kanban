@@ -1,0 +1,178 @@
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+img {
+    vertical-align: top;
+}
+
+/* --------------- */
+
+.App-header-button {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.App-header {
+
+}
+
+.btn {
+}
+
+.App {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.App-main {
+
+
+}
+
+.d-flex {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.board {
+    min-width: 250px;
+    /*min-height: 400px;*/
+    /*border: 5px solid lightgray;*/
+    /*border-radius: 12px;*/
+
+}
+
+.board__title {
+    font-size: 14px;
+    color: #000000;
+
+}
+
+.board__title.gray {
+    border-bottom: 4px solid #A4A4A4;
+}
+
+.board__title.blue {
+    border-bottom: 4px solid #37AEF1;
+}
+
+.board__title.yellow {
+    border-bottom: 4px solid #FFE976;
+}
+
+.board__title.green {
+    border-bottom: 4px solid #03E134;
+
+}
+
+.item {
+    width: 100%;
+    border: 1px solid lightgray;
+    padding: 10px;
+    margin: 0 0 10px;
+    cursor: grab;
+    background-color: #fcfcf9;
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*flex-wrap:wrap;*/
+
+}
+
+.wrapper-for-items {
+    max-width: 250px;
+    min-height: 400px;
+    background-color: #F4F4F4;
+    padding: 12px 12px;
+
+}
+
+.flex-item-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+
+}
+
+.block__element_1 {
+    flex: 0 1 90%;
+
+}
+
+.block__element_2 {
+    text-align: center;
+
+    flex: 0 10%;
+    display:flex;
+    justify-content:space-around;
+}
+
+.block__element_2 button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    background-color: transparent;
+    text-align: center;
+    align-self:center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.block__element_3 {
+    flex: 0 90%;
+}
+
+.block__element_4 {
+    flex: 0 10%;
+    text-align: center;
+
+}
+
+.modal {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0,0,0,0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+/*.board-line{*/
+/*    border: none; !* Убираем границу *!*/
+/*    background-color: red; !* Цвет линии *!*/
+/*    color: red; !* Цвет линии для IE6-7 *!*/
+/*    height: 2px; !* Толщина линии *!*/
+/*}*/
